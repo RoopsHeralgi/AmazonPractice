@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-30T22:56:57 IST" name="Suite" finished-at="2025-01-30T22:57:53 IST" duration-ms="56377">
+  <suite started-at="2025-04-11T11:03:55 IST" name="Suite" finished-at="2025-04-11T11:04:52 IST" duration-ms="57412">
     <groups>
     </groups>
-    <test started-at="2025-01-30T22:56:57 IST" name="Test" finished-at="2025-01-30T22:57:53 IST" duration-ms="56377">
+    <test started-at="2025-04-11T11:03:55 IST" name="Test" finished-at="2025-04-11T11:04:52 IST" duration-ms="57412">
       <class name="Test.TestCart">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Test.TestCart@6580cfdd]" started-at="2025-01-30T22:56:57 IST" name="setup" finished-at="2025-01-30T22:57:14 IST" duration-ms="17212" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.TestCart@6580cfdd]" started-at="2025-04-11T11:03:55 IST" name="setup" finished-at="2025-04-11T11:04:08 IST" duration-ms="13365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCartPageTitle()[pri:0, instance:Test.TestCart@6580cfdd]" started-at="2025-01-30T22:57:14 IST" name="testCartPageTitle" finished-at="2025-01-30T22:57:53 IST" duration-ms="38909" status="FAIL">
+        <test-method signature="testCartPageTitle()[pri:0, instance:Test.TestCart@6580cfdd]" started-at="2025-04-11T11:04:08 IST" name="testCartPageTitle" finished-at="2025-04-11T11:04:52 IST" duration-ms="43858" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Test Failed because the title didn't match expected [https://www.amazon.com/gp/cart/] but found [Amazon.com Shopping Cart]]]>
@@ -58,11 +58,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCartPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.TestCart@6580cfdd]" started-at="2025-01-30T22:57:53 IST" name="tearDown" finished-at="2025-01-30T22:57:53 IST" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.TestCart@6580cfdd]" started-at="2025-04-11T11:04:52 IST" name="tearDown" finished-at="2025-04-11T11:04:52 IST" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.TestCart@6580cfdd]" started-at="2025-01-30T22:57:53 IST" name="tearDown" finished-at="2025-01-30T22:57:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.TestCart@6580cfdd]" started-at="2025-04-11T11:04:52 IST" name="tearDown" finished-at="2025-04-11T11:04:52 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
